@@ -14,7 +14,11 @@ const config = {
 			fallback: undefined,
 			precompress: false,
 			strict: true
-		})
+		}),
+		paths: {
+			base: '', // default: ''
+			relative: true // default: true
+		}
 	}
 };
 
