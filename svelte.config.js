@@ -17,7 +17,7 @@ const config = {
 		}),
 		paths: {
 			base: '', // default: ''
-			relative: false // default: true
+			relative: true // default: true
 		}
 	}
 };
